@@ -55,7 +55,7 @@ Build a responsive webpage that:
 <img src="ss2.jpeg"/>
 <img src="ss3.jpeg"/>
 <img src="ss4.jpeg"/>
-<img src="ss5.jpeg"/>hs.
+<img src="ss5.jpeg"/>
 
 ---
 
