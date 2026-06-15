@@ -51,13 +51,11 @@ Build a responsive webpage that:
 
 ## 🖼️ Screenshots
 
-### 🏠 Home Page
-![Home Page](screenshots/homepage.png)
-
-### 📱 Mobile View
-![Mobile View](screenshots/mobile-view.png)
-
-> Replace the image paths above with your actual screenshot paths.
+<img src="image.png"/>
+<img src="ss2.jpeg"/>
+<img src="ss3.jpeg"/>
+<img src="ss4.jpeg"/>
+<img src="ss5.jpeg"/>hs.
 
 ---
 
