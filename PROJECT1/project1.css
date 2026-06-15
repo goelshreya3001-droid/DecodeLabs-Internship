@@ -1,0 +1,119 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height:100%;
+    width:100%;
+}
+.container{
+    height:100%;
+    /* width:100%; */
+    background-color:rgb(244, 244, 244);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    padding-bottom:10px;
+}
+.header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+    text-align: center;
+}
+.content{
+    /* width:1080px; */
+    display:grid;
+    /* grid-template-columns: repeat(4,1fr); */
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    justify-content: center;
+    /* grid-template-rows : repeat(2,1fr); */
+    gap:0.5rem;
+    padding:1.1rem;
+    margin-left:1.1rem;
+    overflow:hidden;
+}
+.item1{
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    border:2px solid black;
+    border-radius:10px; 
+    width:300px;
+}
+.card_image_container  {
+           position:relative;
+           overflow:hidden;
+           height:14rem;
+           border-top-left-radius:0.4rem;
+          border-top-right-radius: 0.4rem;
+
+}
+.desc{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    margin-left:0.4rem;
+}
+
+.card_image{
+    object-fit: cover;
+    object-position:center;
+    position:absolute;
+    height:100%;
+    width:100%; 
+    transition: all 1s linear 0s;
+}
+.card_image:hover{
+    transform:scale(1.2);
+}
+
+.footer{
+    display:flex;
+    gap:75px;
+    align-items: center;
+    margin-left:0.4rem;
+    margin-right: 0.4rem;
+    
+}
+.author{
+    display:flex;
+    gap:10px;
+    justify-content:center;
+    align-items: center;
+}
+.name{
+    color:rgb(45, 45, 177);
+}
+.text{
+    color:rgb(127, 123, 123);
+}
+.info{
+    display:flex;
+    flex-direction:column;
+}
+/* span{
+    color:blue
+} */
+.tag{
+    border:1px solid black;
+    padding:0.2rem;
+    border-radius:0.2rem;
+}
+.author img {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    border:1px solid black;
+
+}
+.item1 a{
+    text-decoration: none;
+    color:rgb(0, 0, 0);
+    font-size:1.2rem;
+    font-style:bold;
+}
